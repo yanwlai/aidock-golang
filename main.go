@@ -1,8 +1,8 @@
 package main
 
 import (
-	"andtest/control"
 	"andtest/logger"
+	"andtest/scrcpy"
 )
 
 func main() {
@@ -16,5 +16,7 @@ func main() {
 	//socket.Socket(tag)
 	//select {}
 
-	control.Control(tag)
+	//control.Control(tag)
+
+	scrcpy.Scrcpy(tag)
 }
